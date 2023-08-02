@@ -1,0 +1,91 @@
+<html>
+<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://grammarian.homelinux.net:80/~kde-cvs/kfile_spc/","20060220131330","https://web.archive.org/","web","/_static/",
+	      "1140441210");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>kfile_spc, the SPC metainfo reader for KDE</title>
+<link rel="stylesheet" type="text/css" href="/web/20060220131330cs_/https://grammarian.homelinux.net/sitecss.css"/>
+</head>
+<body>
+
+<div class="header">kfile_spc</div>
+
+<center><img src="/web/20060220131330im_/https://grammarian.homelinux.net/~kde-cvs/kfile_spc/kfile_spc-screenie.png" alt="Screenshot of kfile_spc" title=""></center><br clear="all">
+</center>
+
+<p>This is a KFileMetaInfo plugin for reading metadata on SNES SPC files.</p>
+
+<p>SPC files are a sort of music dump from Super NES games.  <a href="https://web.archive.org/web/20060220131330/http://www.zophar.net/zsnes/spc/">http://www.zophar.net/zsnes/spc/</a>
+has a good archive, and you can also try <a href="https://web.archive.org/web/20060220131330/http://www.snesmusic.org/spcsets/">http://www.snesmusic.org/spcsets/</a>.</p>
+
+<p>As far as SPC <em>players</em> go, the choices on Linux are rather limited.
+There is an XMMS plugin to play SPCs, and Neil Stevens has ported a program
+called OpenSPC to play through aRts.  Notice that it isn't an aRts plugin, it
+merely uses aRts to play the file.  You can find the program, called OpenSPC
+Lite, at <a href="https://web.archive.org/web/20060220131330/http://www.hakubi.us/ospc/">Neil's website</a>.</p>
+
+<p>Lately <a href="https://web.archive.org/web/20060220131330/http://www.c133.org/blog/">clee</a>'s SPC plugin for <a href="https://web.archive.org/web/20060220131330/http://www.gstreamer.org/">gstreamer</a> has been integrated into their
+development version, so hopefully we will have SPC support in a major sound
+system in time for KDE 4. :-)</p>
+
+<h3>Download</h3>
+
+Current version: <a href="kfile_spc-0.5.1.tar.bz2">kfile_spc 0.5.1</a>
+ <i>(10.7 K)</i><br>
+
+<br>
+
+<b>Features:</b>
+<ul>
+<li>Supports reading and writing the different types of tags supported by the
+ID666 tag format for SNES SPC files.  The format is rather limited, and has two
+slightly different incarnations which I've tried to detect.  The tags are
+always written out in ID666 binary mode.</li>
+</ul>
+
+<b>Limitations:</b>
+<ul>
+<li>The date seems to be inaccurate, which I think is due to a bug in
+KFileMetaInfoWidget, which I have patched for KDE CVS HEAD (and might be
+backported to KDE 3.3.3</li>
+<li>To save space (the archive is smaller than the screenshot!), I've packaged
+the program using the Makefile template that I used to use for <a href="/web/20060220131330/https://grammarian.homelinux.net/abakus/">abakus</a> and <a href="/web/20060220131330/https://grammarian.homelinux.net/~kde-cvs/tacky/">tacky</a>.  It should
+be able to build and install for you if you have GNU make, but don't be
+surprised if something or the other goes wrong.</li>
+<li>For those who can't build the plain Makefile version, I've also packaged
+a version that uses the autotools, which should work everywhere you can build
+KDE.  Please don't download if the Makefile version does work for you, as it
+is much larger, and I'm hosting it off of my computer. ;)</li>
+<li>Doesn't support the extended ID666 tag format.</li>
+</ul>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 13:13:30 Feb 20, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:17:02 Aug 02, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 203.366
+  exclusion.robots: 0.181
+  exclusion.robots.policy: 0.165
+  RedisCDXSource: 1.367
+  esindex: 0.011
+  LoadShardBlock: 148.568 (3)
+  PetaboxLoader3.datanode: 141.904 (4)
+  load_resource: 120.01
+  PetaboxLoader3.resolve: 47.483
+-->
