@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+Name=SPC Info
+Name[xx]=xxSPC Infoxx
+ServiceTypes=KFilePlugin
+X-KDE-Library=kfile_spc
+MimeType=audio/x-spc
+
+PreferredGroups=
+PreferredItems=

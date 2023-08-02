@@ -1,0 +1,19 @@
+kfile_spc
+
+by Michael Pyne <michael.pyne@kdemail.net>
+
+Homepage currently: http://grammarian.homelinux.net/~kde-cvs/kfile_spc/
+
+This is a KFileMetaInfo plugin to display information on the SPC format used
+by the Super Nintendo.
+
+To build and install:
+$ make
+$ make install
+
+It requires GNU make (and the KDE development packages) at this time.  No
+external SPC libraries are needed, however. If you have problems, please e-mail
+me and I'll get around to porting it to the bksys solution I'm currently using.
+
+Regards,
+ - Michael Pyne (2005 Aug 13)
